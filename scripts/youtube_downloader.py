@@ -42,7 +42,7 @@ def youtube_downloader():
                sg.Button('Return')]]
 
     # Create the window
-    window = sg.Window('Window Title', layout)
+    window = sg.Window('Youtube Downloader', layout)
 
     # Display and interact with the Window using an Event Loop
     while True:
